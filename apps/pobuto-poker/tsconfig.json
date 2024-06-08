@@ -1,3 +1,3 @@
 {
-	"extends": ["@pobuto/typescript-config/nextjs"]
+  "extends": "@pobuto/typescript-config/nextjs.json"
 }
