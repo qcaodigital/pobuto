@@ -1,0 +1,21 @@
+{
+  "name": "@pobuto/poker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@pobuto/eslint-config": "workspace:^",
+    "@pobuto/typescript-config": "workspace:^",
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2"
+  }
+}

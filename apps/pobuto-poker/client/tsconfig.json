@@ -1,0 +1,4 @@
+{
+  "extends": "@pobuto/typescript-config/nextjs.json",
+  "include": ["src/**/*"]
+}
