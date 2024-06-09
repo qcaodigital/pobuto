@@ -22,10 +22,8 @@ const socketio = new Server(server);
 socketio.on('connection', (socket) => {
   console.log('SocketIO connected.');
 
-  setInterval(() => {
-    socket.emit(
-      'message',
-      `Hello from Socket IO! Heres a random number: ${Math.random()}!`
-    );
-  }, 2000);
+  socket.emit(
+    'message',
+    `Hello from Socket IO! Heres a random number: ${Math.random()}!`
+  );
 });
