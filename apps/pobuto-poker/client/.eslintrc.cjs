@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@pobuto/eslint-config/next.js'],
+  extends: ['@pobuto/eslint-config/next'],
 };

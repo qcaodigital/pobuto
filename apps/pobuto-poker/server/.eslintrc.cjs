@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@pobuto/eslint-config/library.js'],
+  extends: ['@pobuto/eslint-config/library'],
 };
